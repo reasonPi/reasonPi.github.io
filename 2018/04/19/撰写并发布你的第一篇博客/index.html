@@ -10,7 +10,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
     <meta name="description" content="">
-    <title>The Neptune</title>
+    <title>撰写并发布你的第一篇博客 · The Neptune</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -65,6 +65,8 @@
 
     <link rel="preload" href= /css/style.css?v=20180317 as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" type="text/css" href= /css/mobile.css?v=20180317 media="(max-width: 980px)"/>
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         
     <link rel="icon" href= /favicon.ico>
     <script>
@@ -175,12 +177,23 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >The Neptune</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">撰写并发布你的第一篇博客</a>
+            </div>
+    </div>
     
     <a class="home-link" href=/>The Neptune</a>
 </header>
@@ -194,24 +207,69 @@
 
 
 
+height:50vh;
+
 >
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-18/23092044.jpg)"></div>
     <div class="site-intro-placeholder"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
+            撰写并发布你的第一篇博客
+            <!-- 404 -->
+            
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <!-- 文章页标签  -->
+            
+                <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "HEXO">HEXO</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "GitHub">GitHub</a>
+    
+</div>
+            
+            <div class="post-intro-meta">
+                <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                <span class="post-intro-time">2018/04/19</span>
+                
+                <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                    <span class="iconfont-archer">&#xe602;</span>
+                    <span id="busuanzi_value_page_pv"></span>
+                </span>
+                
+                <span class="shareWrapper">
+                    <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                    <span class="shareText">Share</span>
+                    <ul class="shareList">
+                        <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                            <div class="share-qrcode"></div>
+                        </li>
+                        <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                        <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                        <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                        <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                    </ul>
+                </span>
+            </div>
         
     </div>
 </div>
@@ -295,116 +353,143 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/04/19/撰写并发布你的第一篇博客/" >
-                
-                    <span>撰写并发布你的第一篇博客</span>
-            </a>
-            <div class="abstract-content">
-                撰写并发布你的第一篇博客综述
-学会使用用Markdown
+            <main class="main post-page">
+    <article class="article-entry">
+        <h1 id="撰写并发布你的第一篇博客"><a href="#撰写并发布你的第一篇博客" class="headerlink" title="撰写并发布你的第一篇博客"></a>撰写并发布你的第一篇博客</h1><h2 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h2><ol>
+<li><p>学会使用用Markdown</p>
+</li>
+<li><p>使用图床</p>
+</li>
+<li><p>编辑网页内容</p>
+</li>
+<li><p>网页的发布</p>
+<p>​</p>
+</li>
+</ol>
+<h2 id="Markdown语言"><a href="#Markdown语言" class="headerlink" title="Markdown语言"></a>Markdown语言</h2><h3 id="什么是Markdown？"><a href="#什么是Markdown？" class="headerlink" title="什么是Markdown？"></a>什么是Markdown？</h3><p>Markdown作为一种网络内容的写作用语言, 能让文件更容易阅读、编写，HTML 是一种发布的格式，Markdown是一种编写的格式。HEXO基于Markdown发布内容。简单来说，Markdown是一种简单的编辑器，通过少量的符号标注来实现文章排版，这篇文章就是用其写作。</p>
+<h3 id="安装Markdown编辑器"><a href="#安装Markdown编辑器" class="headerlink" title="安装Markdown编辑器"></a>安装Markdown编辑器</h3><p>Markdown编辑器非常多，这里推荐<strong>Typora</strong>，非常方便新手使用，界面简洁友好。</p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/88626789.jpg" alt="typora"></p>
+<p>下载地址：<a href="https://typora.io/" target="_blank" rel="noopener">Typora</a></p>
+<p>关于Markdown有很多的教程，放一个视频和一个说明文档在这，就不在细讲了。</p>
+<p><a href="https://www.bilibili.com/video/av8819726" target="_blank" rel="noopener"><strong>b站小姐姐讲解Markdown</strong></a></p>
+<p><a href="http://www.lyscc2016.com/2018/04/19/Markdown%E6%96%87%E4%BB%B6%E8%AF%AD%E6%B3%95%E8%AF%B4%E6%98%8E/" target="_blank" rel="noopener"><strong>Markdown文件语法说明</strong></a></p>
+<p>##使用图床</p>
+<p>如果你已经在前面学习了Markdown的标记语法，你应该已经发现在页面中插入图片需要一个图片的绝对路径，如何给自己的图片创建一个网络访问路径？这里使用<strong>七牛云</strong>免费空间与<strong>极简图床</strong>来解决。</p>
+<h3 id="七牛云配置"><a href="#七牛云配置" class="headerlink" title="七牛云配置"></a>七牛云配置</h3><p>首先登陆官网注册账号并且创建空间。</p>
+<p><a href="https://www.qiniu.com/" target="_blank" rel="noopener">七牛云官网</a></p>
+<p>注册七牛云,并且创建公开空间，注意关闭原图保护</p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/39267441.jpg" alt=""><br>/&gt;<strong>创建空间</strong></p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/65357779.jpg" alt=""><br>/&gt;<strong>创建空间</strong></p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/57398715.jpg" alt=""><br>/&gt;<strong>在空间概览获得解析地址（之后图床用）</strong></p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/17113288.jpg" alt=""><br>/&gt;<strong>进入个人面板密钥管理</strong></p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/44574230.jpg" alt=""><br>/&gt;<strong>获得密钥</strong></p>
+<h3 id="极简图床"><a href="#极简图床" class="headerlink" title="极简图床"></a>极简图床</h3><p>注册极简图床账号</p>
+<p><a href="http://jiantuku.com" target="_blank" rel="noopener">极简图床官网</a></p>
+<p>按照下图方式注册并设置空间，上传图片你就获得了图片的唯一网络路径，可以直接在文档中使用了，七牛云国内主机访问速度非常快，基本不用读条加载，适合博客使用。</p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/62243094.jpg" alt=""></p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-19/94377976.jpg" alt=""></p>
+<h2 id="现在可以写你的第一篇部落格了！"><a href="#现在可以写你的第一篇部落格了！" class="headerlink" title="现在可以写你的第一篇部落格了！"></a>现在可以写你的第一篇部落格了！</h2><p>只剩下一件事需要你做了，那就是Front-matter，这几行用三条短线隔离的代码用来描述文章的标题分类等信息。</p>
+<h3 id="举HEXO官网的文件来说明"><a href="#举HEXO官网的文件来说明" class="headerlink" title="举HEXO官网的文件来说明"></a>举HEXO官网的文件来说明</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: Hello World</span><br><span class="line">date: 2013/7/13 20:46:25</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>以下是预先定义的参数，您可在模板中使用这些参数值并加以利用。</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>layout</code></td>
+<td>布局</td>
+<td></td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>标题</td>
+<td></td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td>建立日期</td>
+<td>文件建立日期</td>
+</tr>
+<tr>
+<td><code>updated</code></td>
+<td>更新日期</td>
+<td>文件更新日期</td>
+</tr>
+<tr>
+<td><code>comments</code></td>
+<td>开启文章的评论功能</td>
+<td>true</td>
+</tr>
+<tr>
+<td><code>tags</code></td>
+<td>标签（不适用于分页）</td>
+<td></td>
+</tr>
+<tr>
+<td><code>categories</code></td>
+<td>分类（不适用于分页）</td>
+<td></td>
+</tr>
+<tr>
+<td><code>permalink</code></td>
+<td>覆盖文章网址</td>
+</tr>
+</tbody>
+</table>
+<p>###分类和标签</p>
+<p>只有文章支持分类和标签，您可以在 Front-matter 中设置。在其他系统中，分类和标签听起来很接近，但是在 Hexo 中两者有着明显的差别：分类具有顺序性和层次性，也就是说 <code>Foo, Bar</code> 不等于 <code>Bar, Foo</code>；而标签没有顺序和层次。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">- Diary</span><br><span class="line">tags:</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>分类方法的分歧</p>
+<p>如果您有过使用WordPress的经验，就很容易误解Hexo的分类方式。WordPress支持对一篇文章设置多个分类，而且这些分类可以是同级的，也可以是父子分类。但是Hexo不支持指定多个同级分类。下面的指定方法：<br>categories:<br>- Diary<br>- Life<br>会使分类<code>Life</code>成为<code>Diary</code>的子分类，而不是并列分类。因此，有必要为您的文章选择尽可能准确的分类。</p>
+</blockquote>
+<h3 id="一些注意"><a href="#一些注意" class="headerlink" title="一些注意"></a>一些注意</h3><p><strong>Front-matter需要用三条短线与正文区分（ — ）</strong></p>
+<p><strong>在每个标签之后均有一个空格</strong></p>
+<p><strong>在标签条目的短线之后也有一个空格</strong></p>
+<p><strong>空格非常重要，请务必按格式来！！！</strong></p>
+<p><strong>空格非常重要，请务必按格式来！！！</strong></p>
+<p><strong>空格非常重要，请务必按格式来！！！</strong></p>
+<p>##发布网页</p>
+<p>只需要将编辑好的<strong>.md</strong>文件粘贴到HEXO目录下的<strong>source/_posts</strong>文件夹内</p>
+<p>运行hexo g 命令生成静态网页</p>
+<p>使用hexo s 可以在<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 查看预览</p>
+<p>使用hexo d 命令即可一键部署网页到Github</p>
+<p>详细的部署可以参考上一篇文章的<strong>Part 1.3</strong></p>
+<p><a href="http://www.lyscc2016.com/2018/04/18/%E4%BD%BF%E7%94%A8HEXO%20%E5%92%8CGitHub%20Pages%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#%E9%83%A8%E7%BD%B2HEXO%E5%88%B0GitHub" target="_blank" rel="noopener">部署HEXO到GitHub</a></p>
 
-使用图床
+    </article>
+    <!-- 前后页  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2018/04/19/Markdown文件语法说明/" title= Markdown文件语法说明 >
+                    <div class="prevTitle">Markdown文件语法说明</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
 
-编辑网页内容
+<!-- City版安装代码已完成 -->
+    
+    
+    <!--PC版-->
 
-网页的发布
-​
+    <!--PC版-->
 
 
-Markdown语言什么是Markdown？Markdown作为一种网络内容的写作用语言, 能让文件更容易阅读、编写，HTML 是一种发布的格式，Markdown是一种编写的格式。HEX...
-            </div>
-            <div class="abstract-post-meta">
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/04/19</span>
-                </div>
-                <!-- tags  -->
-                
-                <div class= abstract-tags >
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "HEXO">HEXO</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "GitHub">GitHub</a>
-    
-</div>
-                
-            </div>
-        </article>
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/04/19/Markdown文件语法说明/" >
-                
-                    <span>Markdown文件语法说明</span>
-            </a>
-            <div class="abstract-content">
-                Markdown文件语法说明这是一篇语法说明，原链接位于台湾。
-原始地址:
-Markdown
-
-NOTE: This is Traditional Chinese Edition Document of Markdown Syntax. If you are seeking for Engli...
-            </div>
-            <div class="abstract-post-meta">
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/04/19</span>
-                </div>
-                <!-- tags  -->
-                
-                <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "HEXO">HEXO</a>
-    
-</div>
-                
-            </div>
-        </article>
-    
-    
-    
-        <article class="index-post">
-            <a class="abstract-title" href = "/2018/04/18/使用HEXO 和GitHub Pages建立个人博客/" >
-                
-                    <span>使用HEXO 和GitHub Pages建立个人博客</span>
-            </a>
-            <div class="abstract-content">
-                使用HEXO 和GitHub Pages建立个人博客本篇文章的目的是让每一个不懂程序的人都能通过一个下午的努力，方便的建立自己的个人独立博客。简化建站难度，专注写作。
-##环境配置及软件
-
-Node.js  
-下载地址
-https://nodejs.org/en
-
-Git
-下载地址
-https...
-            </div>
-            <div class="abstract-post-meta">
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/04/18</span>
-                </div>
-                <!-- tags  -->
-                
-                <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "HEXO">HEXO</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "GitHub">GitHub</a>
-    
-</div>
-                
-            </div>
-        </article>
-    
-    <!-- paginator  -->
-    
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -478,6 +563,24 @@ https...
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#撰写并发布你的第一篇博客"><span class="toc-number">1.</span> <span class="toc-text">撰写并发布你的第一篇博客</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#综述"><span class="toc-number">1.1.</span> <span class="toc-text">综述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Markdown语言"><span class="toc-number">1.2.</span> <span class="toc-text">Markdown语言</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#什么是Markdown？"><span class="toc-number">1.2.1.</span> <span class="toc-text">什么是Markdown？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Markdown编辑器"><span class="toc-number">1.2.2.</span> <span class="toc-text">安装Markdown编辑器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#七牛云配置"><span class="toc-number">1.2.3.</span> <span class="toc-text">七牛云配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#极简图床"><span class="toc-number">1.2.4.</span> <span class="toc-text">极简图床</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#现在可以写你的第一篇部落格了！"><span class="toc-number">1.3.</span> <span class="toc-text">现在可以写你的第一篇部落格了！</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#举HEXO官网的文件来说明"><span class="toc-number">1.3.1.</span> <span class="toc-text">举HEXO官网的文件来说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一些注意"><span class="toc-number">1.3.2.</span> <span class="toc-text">一些注意</span></a></li></ol></li></ol></li></ol>
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -605,6 +708,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
     
     </body>
 </html>
