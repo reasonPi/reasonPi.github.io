@@ -10,7 +10,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
     <meta name="description" content="">
-    <title>The Neptune</title>
+    <title>谈一谈建站 · The Neptune</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -65,6 +65,8 @@
 
     <link rel="preload" href= /css/style.css?v=20180317 as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" type="text/css" href= /css/mobile.css?v=20180317 media="(max-width: 980px)"/>
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         
     <link rel="icon" href= /favicon.ico>
     <script>
@@ -175,12 +177,23 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >The Neptune</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">谈一谈建站</a>
+            </div>
+    </div>
     
     <a class="home-link" href=/>The Neptune</a>
 </header>
@@ -194,24 +207,69 @@
 
 
 
+height:50vh;
+
 >
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-18/23092044.jpg)"></div>
     <div class="site-intro-placeholder"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
+            谈一谈建站
+            <!-- 404 -->
+            
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <!-- 文章页标签  -->
+            
+                <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "推荐">推荐</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "About">About</a>
+    
+</div>
+            
+            <div class="post-intro-meta">
+                <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                <span class="post-intro-time">2018/05/06</span>
+                
+                <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                    <span class="iconfont-archer">&#xe602;</span>
+                    <span id="busuanzi_value_page_pv"></span>
+                </span>
+                
+                <span class="shareWrapper">
+                    <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                    <span class="shareText">Share</span>
+                    <ul class="shareList">
+                        <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                            <div class="share-qrcode"></div>
+                        </li>
+                        <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                        <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                        <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                        <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                    </ul>
+                </span>
+            </div>
         
     </div>
 </div>
@@ -295,38 +353,67 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
+            <main class="main post-page">
+    <article class="article-entry">
+        <h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>前两天上课看见一同学抱着笔记本在课上吭哧吭哧用 WP 建站，网页教程开了十几个，非常着急。于是悄悄记下了他的域名，今天又上果不其然，还是无法访问。这已经是我看见的第三位上课建站的同学了，可见这件事情还是有一定的需求的。 </p>
+<p>坦率的讲，能有一个固定的输出内容的地址是一件很好的事情，他能促使你不断地输出，自我反思与前进。有人说过技术博客就是程序员的简历，我觉得这句话可以继续往下说，博客也可以是每一个人的自我简历。最近井喷的 Vlog 也是博客的衍生产物即 Video Blog ，相较于视频制作的繁琐，纯粹的文字输出其实是每一个人都能做到的最容易的解决方案。 </p>
+<p>作为一个曾经的他们，主流的方法我基本都试过一遍，今天就来谈谈如何在互联网上建立一个独属于自己的输出空间。 </p>
+<h2 id="知乎教程大坑多"><a href="#知乎教程大坑多" class="headerlink" title="知乎教程大坑多"></a>知乎教程大坑多</h2><p>现在很多人已经养成了一种习惯，做事之前先问问知乎，找他十篇教程读一宿。第二天一盆冷水就浇下来了，为什么？为什么读了那么多教程，依然干不好一件事情？大部分国内找的见的教程有两类，一类是广告水文，另一类往往用「手把手某某某」做标题。然而往往你跟着他真的一步一步的来，一般到一半就会在某处卡住。你会发现这么多篇教程互相干扰，相互否定，你该相信谁？只讲述过程不解释原理就会导致这种问题，过程往往会根据版本，环境的变化而改变，也许仅仅是一个空格符的语法错误就会导致整个的错误。 </p>
+<p>很多教程往往会让你把某某某字符改成某某某名字，你跟着他一改，煞那间弹一个 <strong>Error</strong> 把你吓一跳。如果你不懂那些命令，只是照葫芦画瓢的输入回车，很容易就会抓耳挠腮，非常难过。 </p>
+<p>我想起了我第一次拍胶卷的时候，洗出来的底片上赫然存在着上海胶卷的水印，给我留下了极其糟糕的印象。在一个人第一次接触新鲜事物的时候，如果体验非常差那么他将此事继续下去的动力就会大打折扣。建站也是一样，选择一种简单的方式来做为自己的第一次才是明智之选。如果你不懂 cd vim Linux 这些词汇，甚至从未使用过非图形化操作系统，那你想自己用 WP 建站的过程会非常痛苦，但是别害怕，让我们透过现象看本质，读一读这篇文章。 </p>
+<h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>一般来讲，建立个人空间的方法无非就与两种，一种是服务商提供全部的服务，你只需要写一篇 word ，往进一扔，一个链接就生成了，拿来发票圈就行。另一种是服务商提供部分服务，剩下的网页搭建与维护基本就全靠自己。下面依次来说说。 </p>
+<h2 id="公共服务博客"><a href="#公共服务博客" class="headerlink" title="公共服务博客"></a>公共服务博客</h2><p>从春晚上白云开设的新浪博客，到我们身边的 QQ空间，再到现象级的微信公众号，这其实都是公共服务博客范畴下的细分产物。如前文所言，这些服务的获取非常容易，简单的注册认证后便可以拥有。个别的服务商甚至支持自己绑定独立域名，据我所知简书在这方面有支持。个人推荐可以先从公众号开始，微信有庞大的用户基础，编辑方式也比较相似于 WordPress 。 </p>
+<p>然而这些公共服务往往存在审查上的问题，例如图片说没就没，文章转眼灰飞烟灭，自我备份非常麻烦。在国内，这些问题饱受诟病，于是有人就转向了搭建独立博客之路。 </p>
+<h2 id="独立博客"><a href="#独立博客" class="headerlink" title="独立博客"></a>独立博客</h2><p>每 10 个想要建立独立博客的人中，9 个都选择了 WordPress 。当然这句话是我编的，但是 WP 仍是世界上最知名的开源博客软件。当你在网上找 WP 建站教程是，会发现有的博客长的和其他人不一样，在页脚的注释处常有「由 Hexo 强力驱动」字样，这就引出了第二个建站途径， Hexo 。下面就详细论述这两者。 </p>
+<h3 id="WordPress"><a href="#WordPress" class="headerlink" title="WordPress"></a>WordPress</h3><p>WP 建出来的页面非常好看，有庞大的免费/付费主题资源，前面已经说过，建好的 WP 站点非常好用，内置了非常多的功能及内容，你甚至可以直接从手机发布博客内容。</p>
+<p><img src="https://i0.wp.com/themes.svn.wordpress.org/twentyfourteen/2.1/screenshot.png?w=1142&amp;strip=all" alt=""></p>
+<p><img src="https://i0.wp.com/themes.svn.wordpress.org/robolist-lite/1.2.3/screenshot.png?w=1142&amp;strip=all" alt=""></p>
+<p><img src="https://i0.wp.com/themes.svn.wordpress.org/twentysixteen/1.4/screenshot.png?w=1142&amp;strip=all" alt=""></p>
+<p><img src="https://i0.wp.com/themes.svn.wordpress.org/twentyten/2.4/screenshot.png?w=1142&amp;strip=all" alt=""></p>
+<p>于是，你很高兴，到官网上下载了一个安装包，很高兴的觉得这因该就像安装软件一样容易。你看到官网提示你这样的文字。 </p>
+<blockquote>
+<p>下载压缩包到本地，解压缩，双击解开的文件夹中的 <code>readme.html</code>文件，即可查看WordPress的介绍、安装，和升级方法。在您将程序文件上传至服务器相应目录后，安装过程只需5分钟。  </p>
+</blockquote>
+<p>OK ，五分钟而已，听起来非常简单。直到你你打开 <code>readme.html</code>文件，看到了这样一段话。</p>
+<p><img src="http://7xvh0c.com2.z0.glb.qiniucdn.com/18-5-6/14860244.jpg" alt=""> </p>
+<p>你发现你只能执行第一步的前半部分，这就是问题所在。很多像我一样的新手就栽在了这一步，大部分国内的教程也就是上面 5 步的一个分步骤解析罢了，最多再加一个环境安装。 </p>
+<p>WP 最大的难题就是环境的安装和 MySQL 设置，跟着教程手把手，到头来全是BUG，一万个版本互相冲突，不同的系统命令不同。很多教程开头就会教你拿着他的邀请码去租 VPS 服务器，但是这种基于 Linux 的服务器往往都是非图形化的，他不同于平常使用的操作系统，看不见摸不着，只有黑色文本框里一条条看不太懂的代码。<strong>要让一个不懂 Linux 的人去在这一片混沌之中去建个数据库，再把各种文件填进去，这难于登天。</strong>即使你跟着教程完完全全建了一个出来，之后的维护还是个麻烦，教程往往带有各种博主自创的文件命名规则，一般都不会特别说明。你照着搬过来，下次想调个参数，另一个博主又是另一套命名，两头对不上，麻烦就来了。万一改错了，网页分分钟无法加载，甚至你的记录统统灰飞烟灭。</p>
+<p>其实，想使用 Wordpress 的服务没有这么困难，很多教程其实是把小白往坑里带。大多数的 VPS 服务商，在租赁之初都提供程序安装选项，直接选 WP 结账，按提示填个管理员信息就行了。如果 VPS 嫌贵，还有虚拟主机可选，建个小访问量的博客足够了。完全没有必要把全部流程都直接走一遍，先把页面加载出来，再学那些玩意儿不迟。</p>
+<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>Hexo 的大坑比 WP 稍微好一点，原因是这玩意涉及的环境比较友好，提交网页也是在本地生成好一个页面再上传。方便很多，这也导致其界面比较简单，功能没有那么多，多数是程序员在用。因为刚刚做了这方面的事情，也看了不少教程，写写可能遇见的坑。</p>
+<p>第一就是有一种奇葩教程，让你直接去他的 GitHub 仓库点个克隆，然后恭喜你已经完成了所有工作。这就是扯淡，你的博客和他的除了网址不一样，其他啥都一样，这是你的博客么？一套操作下来，你还是不会上传网页，不会改主题，两手空空。</p>
+<p>第二种属于手把手教程，我也写过一篇这样的东西，对于这种教程，选一篇看就行，遇到问题上谷歌查查一般都能解决。千万不能这个教程走一段，那个教程来一点。每篇这样的手把手教程都是细微的有不同的，依旧是前面说的两头对不上的问题。</p>
+<p>第三非常重要，Error 的内容要看，看不懂拿手机翻译一下再查，很多错误的解决方法其实系统会告诉你错在哪，也许就是一个空格。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>本质上来讲，建立一个独立博客的目的还是<strong>输出内容</strong>，快速便捷的搭建起一个平台才是最重要的事情。作为一个到处尝试的小白，还是推荐大家从公众号做起，持续输出一段时间并且坚持下去再考虑自建博客。不要让繁琐的建站过程消磨了你输出内容的动力，保有第一次记忆的美好是最重要的事情。</p>
+<p>祝大家建站快乐。</p>
+
+    </article>
+    <!-- 前后页  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2018/04/25/一些近期推荐/" title= 一些近期推荐 >
+                    <div class="prevTitle">一些近期推荐</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
     
+    <!--PC版-->
+
+    <!--PC版-->
+
+
     
-        <article class="index-post">
-            <a class="abstract-title" href = "/2017/10/21/从大家乡谈起-如何批判性的获取信息/" >
-                
-                    <span>从大家乡谈起---如何批判性的获取信息</span>
-            </a>
-            <div class="abstract-content">
-                在营销号遍地及假新闻大面积传播的现状下，如何保持判断力。如何大致判断票圈转发的可靠性，防止被忽悠。
-            </div>
-            <div class="abstract-post-meta">
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2017/10/21</span>
-                </div>
-                <!-- tags  -->
-                
-                <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "公众号往期文章归档">公众号往期文章归档</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "A">A</a>
-    
-</div>
-                
-            </div>
-        </article>
-    
-    <!-- paginator  -->
-    
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -400,6 +487,24 @@
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#缘起"><span class="toc-number">1.</span> <span class="toc-text">缘起</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#知乎教程大坑多"><span class="toc-number">2.</span> <span class="toc-text">知乎教程大坑多</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#简述"><span class="toc-number">3.</span> <span class="toc-text">简述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#公共服务博客"><span class="toc-number">4.</span> <span class="toc-text">公共服务博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#独立博客"><span class="toc-number">5.</span> <span class="toc-text">独立博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#WordPress"><span class="toc-number">5.1.</span> <span class="toc-text">WordPress</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo"><span class="toc-number">5.2.</span> <span class="toc-text">Hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结语"><span class="toc-number">6.</span> <span class="toc-text">结语</span></a></li></ol>
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -670,6 +775,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
     
     </body>
 </html>
