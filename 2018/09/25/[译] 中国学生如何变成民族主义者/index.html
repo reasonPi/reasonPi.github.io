@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+    <!-- title -->
+
+
+
+
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <meta name="description" content="">
+    <title>【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来 · The Neptune</title>
+    <style type="text/css">
+    @font-face {
+        font-family: 'Oswald-Regular';
+        src: url("/font/Oswald-Regular.ttf");
+    }
+
+    body {
+        margin: 0;
+    }
+
+    header,
+    footer,
+    .back-top,
+    .sidebar,
+    .container,
+    .site-intro-meta,
+    .toc-wrapper {
+        display: none;
+    }
+
+    .site-intro {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        /* height: 50vh; */
+        overflow: hidden;
+    }
+
+    .site-intro-placeholder {
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        left: 0;
+        width: calc(100% + 300px);
+        height: 100%;
+        background: repeating-linear-gradient(-45deg, #444 0, #444 80px, #333 80px, #333 160px);
+        background-position: center center;
+        transform: translate3d(-226px, 0, 0);
+        animation: gradient-move 2.5s ease-out 0s 1;
+    }
+
+    @keyframes gradient-move {
+        0% {
+            transform: translate3d(-226px, 0, 0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+</style>
+
+    <link rel="preload" href= /css/style.css?v=20180317 as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" href= /css/mobile.css?v=20180317 media="(max-width: 980px)"/>
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        
+    <link rel="icon" href= /favicon.ico>
+    <script>
+        (function (w) {
+            "use strict";
+            // rel=preload support test
+            if (!w.loadCSS) {
+                w.loadCSS = function () { };
+            }
+            // define on the loadCSS obj
+            var rp = loadCSS.relpreload = {};
+            // rel=preload feature support test
+            // runs once and returns a function for compat purposes
+            rp.support = (function () {
+                var ret;
+                try {
+                    ret = w.document.createElement("link").relList.supports("preload");
+                } catch (e) {
+                    ret = false;
+                }
+                return function () {
+                    return ret;
+                };
+            })();
+
+            // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
+            // then change that media back to its intended value on load
+            rp.bindMediaToggle = function (link) {
+                // remember existing media attr for ultimate state, or default to 'all'
+                var finalMedia = link.media || "all";
+
+                function enableStylesheet() {
+                    link.media = finalMedia;
+                }
+
+                // bind load handlers to enable media
+                if (link.addEventListener) {
+                    link.addEventListener("load", enableStylesheet);
+                } else if (link.attachEvent) {
+                    link.attachEvent("onload", enableStylesheet);
+                }
+
+                // Set rel and non-applicable media type to start an async request
+                // note: timeout allows this to happen async to let rendering continue in IE
+                setTimeout(function () {
+                    link.rel = "stylesheet";
+                    link.media = "only x";
+                });
+                // also enable media after 3 seconds,
+                // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
+                setTimeout(enableStylesheet, 3000);
+            };
+
+            // loop through link elements in DOM
+            rp.poly = function () {
+                // double check this to prevent external calls from running
+                if (rp.support()) {
+                    return;
+                }
+                var links = w.document.getElementsByTagName("link");
+                for (var i = 0; i < links.length; i++) {
+                    var link = links[i];
+                    // qualify links to those with rel=preload and as=style attrs
+                    if (link.rel === "preload" && link.getAttribute("as") === "style" && !link.getAttribute("data-loadcss")) {
+                        // prevent rerunning on link
+                        link.setAttribute("data-loadcss", true);
+                        // bind listeners to toggle media back
+                        rp.bindMediaToggle(link);
+                    }
+                }
+            };
+
+            // if unsupported, run the polyfill
+            if (!rp.support()) {
+                // run once at least
+                rp.poly();
+
+                // rerun poly on an interval until onload
+                var run = w.setInterval(rp.poly, 500);
+                if (w.addEventListener) {
+                    w.addEventListener("load", function () {
+                        rp.poly();
+                        w.clearInterval(run);
+                    });
+                } else if (w.attachEvent) {
+                    w.attachEvent("onload", function () {
+                        rp.poly();
+                        w.clearInterval(run);
+                    });
+                }
+            }
+            // commonjs
+            if (typeof exports !== "undefined") {
+                exports.loadCSS = loadCSS;
+            }
+            else {
+                w.loadCSS = loadCSS;
+            }
+        }(typeof global !== "undefined" ? global : this));
+    </script>
+    <script src="//cdn.staticfile.org/jquery/3.2.1/jquery.min.js" defer></script>
+    <script src="/scripts/main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
+    <!-- 百度统计  -->
+    
+    <!-- 谷歌统计  -->
+    
+</head>
+
+    
+        <body class="post-body">
+    
+    
+<header class="header">
+
+    <div class="read-progress"></div>
+    <div class="header-sidebar-menu">&#xe775;</div>
+    <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >The Neptune</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来</a>
+            </div>
+    </div>
+    
+    <a class="home-link" href=/>The Neptune</a>
+</header>
+    <div class="wrapper">
+        <div class="site-intro" style=
+
+
+
+
+
+
+
+
+height:50vh;
+
+>
+    
+    <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
+            
+    <div class="site-intro-img" style="background-image: url(http://7xvh0c.com2.z0.glb.qiniucdn.com/18-4-18/23092044.jpg)"></div>
+    <div class="site-intro-placeholder"></div>
+    <div class="site-intro-meta">
+        <!-- 标题  -->
+        <h1 class="intro-title">
+            <!-- 主页  -->
+            
+            【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来
+            <!-- 404 -->
+            
+        </h1>
+        <!-- 副标题 -->
+        <p class="intro-subtitle">
+            <!-- 主页副标题  -->
+            
+            
+            <!-- 404 -->
+            
+        </p>
+        <!-- 文章页meta -->
+        
+            <!-- 文章页标签  -->
+            
+                <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "翻译">翻译</a>
+    
+</div>
+            
+            <div class="post-intro-meta">
+                <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                <span class="post-intro-time">2018/09/25</span>
+                
+                <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                    <span class="iconfont-archer">&#xe602;</span>
+                    <span id="busuanzi_value_page_pv"></span>
+                </span>
+                
+                <span class="shareWrapper">
+                    <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                    <span class="shareText">Share</span>
+                    <ul class="shareList">
+                        <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                            <div class="share-qrcode"></div>
+                        </li>
+                        <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                        <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                        <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                        <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                    </ul>
+                </span>
+            </div>
+        
+    </div>
+</div>
+        <script>
+  // load webfont-loader async, and add callback function
+  function async(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+  
+  // get user agent
+  var browser = {
+    versions: function () {
+      var u = window.navigator.userAgent;
+      return {
+        userAgent: u,
+        trident: u.indexOf('Trident') > -1, //IE内核
+        presto: u.indexOf('Presto') > -1, //opera内核
+        webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+        mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+        iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者安卓QQ浏览器
+        iPad: u.indexOf('iPad') > -1, //是否为iPad
+        webApp: u.indexOf('Safari') == -1, //是否为web应用程序，没有头部与底部
+        weixin: u.indexOf('MicroMessenger') == -1, //是否为微信浏览器
+        uc: u.indexOf('UCBrowser') > -1 //是否为android下的UC浏览器
+      };
+    }()
+  }
+  console.log("userAgent:" + browser.versions.userAgent);
+
+  // callback
+  function fontLoaded() {
+    console.log('font loaded');
+    if (document.getElementsByClassName('site-intro-meta')) {
+      document.getElementsByClassName('intro-title')[0].classList.add('intro-fade-in');
+      document.getElementsByClassName('intro-subtitle')[0].classList.add('intro-fade-in');
+      var postIntroTags = document.getElementsByClassName('post-intro-tags')[0],
+        postIntroMeat = document.getElementsByClassName('post-intro-meta')[0];
+      if (postIntroTags) {
+        postIntroTags.classList.add('post-fade-in');
+      }
+      if (postIntroMeat) {
+        postIntroMeat.classList.add('post-fade-in');
+      }
+    }
+  }
+
+  // UC不支持跨域，所以直接显示
+  function asyncCb(){
+    if (browser.versions.uc) {
+      console.log("UCBrowser");
+      fontLoaded();
+    } else {
+      WebFont.load({
+        custom: {
+          families: ['Oswald-Regular']
+        },
+        loading: function () {  //所有字体开始加载
+          // console.log('loading');
+        },
+        active: function () {  //所有字体已渲染
+          fontLoaded();
+        },
+        inactive: function () { //字体预加载失败，无效字体或浏览器不支持加载
+          console.log('inactive: timeout');
+          fontLoaded();
+        },
+        timeout: 5000 // Set the timeout to two seconds
+      });
+    }
+  }
+
+  async("https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js", asyncCb)
+</script>        
+        <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
+        <div class="container container-unloaded">
+            <main class="main post-page">
+    <article class="article-entry">
+        <blockquote>
+<p><strong>Yige Dong</strong></p>
+<p>Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studied at Beijing University and received her BA from the University of Hong Kong and MA from the University of Chicago. Her research lies at the intersection of gender, labor, and political economy. Her dissertation examines how care work has changed as China transitioned from state socialism to a capitalist economy. She also studies feminist movements in contemporary China.</p>
+</blockquote>
+<blockquote>
+<p>  American Quarterly<br>  Volume 69, Number 3, September 2017<br>  Johns Hopkins University Press</p>
+</blockquote>
+<p>时至今日，在美的国际学生中有三分之一都来自中国大陆地区。截至2015年，中国已经连续六年成为美国留学生的主要输出国，在经历了近10年的两位数增长后，其人数从6万增长到30万人 [1]。大量的中国学生往往伴随着一种有争议的形象出现。这些关于中国学生的学术不诚实和炫耀性消费的报道，特别是富裕家庭学生的相关丑闻引发了美国人和背景更低的中国学生的厌恶[2]。</p>
+<p>中国学生出现在在美国的校园里，这带来了一些象征性的意义并且导致了些许的争议。一方面来说，他们如洪水般涌入美国的城市小镇，对一些当地居民来说可能是一种压倒一切的威胁。随着中国积极推动自己成为国内外认可的另类超级大国，与其他任何一代的前辈相比，今天的中国学生对于自己的民族自豪感更加直言不讳。</p>
+<p>另一方面，随着美国高等教育经历了深刻的转型，中国学生的到来对大学的运作至关重要。由于严重的资金削减，公立大学现在不得不减少本州申请者的入学名额，并扩大他们的海外市场，目标是来自中等收入国家的本科生和研究生，他们往往全额支付学费。在被认为是“摇钱树”的中国学生中，大约有40%是本科生，在2013年为美国经济贡献了98亿美元[3]。而学校机构对此做出的准备显然不足，这导致了许多中国学生无法适应，往往使他们与其他文化群体相隔绝。[4]对于州内申请者来说，中国人的到来可能会削弱他们上大学的机会，对于一些发现他们独特的民族历史的华裔美国人来说，这可能会更具威胁性。他们发现自己独特的种族身份正在与那些碰巧有着相同祖先起源的非公民混淆在一起。[5]</p>
+<p>我们该如何理解中国学生对这些混淆的看法，因为他们似乎处在一种前所未有的强大和脆弱中？这些叙述是被准确传播的吗？还是仅仅反映了中国学生所受到的影响？这包含了整个美国社会和更大的经济，历史和地缘政治结构的种族偏见。</p>
+<p>美国的教育和社会经验是否影响了这些学生的主观意识？今天，这个庞大群体中的大多数将在完成学业后返回中国，因为美国的移民政策使得他们越来越难以继续留美国，而这似乎将预示着中国的持续增长还有更多机会。在这种背景下，理解他们酝酿已久的挫败感、增加的爱国主义倾向，以及在横跨太平洋的公民运动中的表现，将阐明我们对于未来的讨论。虽然许多问题仍需要未来的实证调查，但我以下的分析将侧重于两个具体的方面。</p>
+<p>首先，我研究了中国学生中民族主义者的心理概况，并展示了美国背景如何在促进其民族主义倾向中发挥作用。其次，我强调群体的多样性，并关注了在美中国学生中一些被忽视的群体，他们的存在虽然并不起眼，但可能有可能成为未来学生行动主义和跨太平洋运动的接替力量。当然，我的观察不能代表整个“中国留学生”群体。事实上，我认为这个概念应该被分解，以便更好地理解这个高度异质的群体中出现的多重主观性。在过去一年半的时间里，我在北京，香港和美国的高等教育系统中度过了大量时间，我相信我的观点有幸见证了海外中国学生更深层次的活力和长期的变化。</p>
+<p>像许多观察者一样，我开始注意到2008年海外华人学生强烈的民族主义情绪激增。当年4月，当我还是芝加哥大学的硕士生时，反对旧金山奥运火炬传递的抗议活动引起了中国留学生的强烈反对。我在北京大学认识的一个大学朋友，之后在南加州攻读博士学位，他在博客中提到了他去海湾地区的旅行，为了保护火炬。我的朋友只是众多年轻民族主义者中的一员，他们在2008年的互联网上引人注目的崛起，这使他们获得了一个集体身份——4月青年。现在回想起来，这一事件，以及2006年关于麻省理工学院木刻版画的争议[6]，标志着一个新时代的到来。在这个时代，海外中国学生的形象与强烈的民族主义情绪和独特的机构联系在一起，使他们的声音被世界听到。</p>
+<p>然而，当时让我感到震惊的，与其说是关于中国学生群体的民族主义反应，不如说是我朋友个人的转变。回想大学时，我的朋友是一个自我认同的自由主义者，对中国政府持批评态度。正如21世纪初许多学生在北京大学所做的那样，我们分享与观看了有关天安门事件相关的记忆，这是一部关于1989年学生运动的三小时纪录片，我们从校园内网服务器上下载了它，该片在国内被禁止播放。具有讽刺意味的是，多年来的官方认可的历史和中国化的马克思主义理论的教学使我们形成了一种观点，即不相信任何国家的言论，而是专注于个人的精英进步。后来，我和我的自由派朋友加入了中国顶尖大学的年轻男女阵营，开始准备托福和GRE考试，等待国外研究生院的入学录取，而美国是最理想的目的地。对我们来说，宣称自己爱国似乎代表着某种尴尬或是“不酷”，但事实上这与实际情况并无联系。</p>
+<p>但是几年后，当我的朋友参加火炬抗议时，我开始追问自己，民族主义对我们这一代人意味着什么，以及如何回应那些关心民族主义话语的中国和美国同学。更重要的是，我想知道，有哪些不断变化的社会和政治环境改变了像我的朋友这样的学生，他曾经批评过中国政府，但现在每当有人批评政权时都会变得具有防御性。</p>
+<p>当然，民族主义情绪在中国学生思维方式中并不是什么新鲜事。事实上，中国近代史上的学生运动可以追溯到二十世纪初，且一直以民族主义精神为动力。天安门运动也不例外，学生们为了国家和人民而反抗腐败的政权。然而，虽然1989年的学生民族主义者希望将一党政治制度民主化以拯救国家，但当代人似乎更同意中国共产党的领导，并对任何其他治理模式持怀疑态度。</p>
+<p>首先必须在地缘政治变化和国家战略的背景下理解导致这种同意的原因。海外中国留学生学生发现中国百年的屈辱历史总是不自觉地显现在他们面前。正如奥维尔·斯科勒所言[7]，今天的中国学生正在目睹中国重新融入全球资本主义体系，其高速的增长令人眼花缭乱，他们正在成为现行政权的直接受益者。在高等教育环境中，中国每年资助数百名学生和学者，并请他们访问北美和其他地区最负盛名的大学和研究机构。2008年启动的“千人计划”计划一直在招募全球专家，这项计划以西方教育体系下培养的的中国博士为主要目标，邀请他们回到中国工作，并为他们提供丰厚的资金和研究设施。所有这些举措都向海外的学生和学者发出了明确的信息，即政府比以往任何时候都更有资源和更强大，并且愿意邀请他们回来。</p>
+<p>我认为，中国学生在美国学习和生活的经历同样影响着其向亲中国方向上的转变。许多学生在抵达美国之前已将其理想化，想象它是一个公平竞争，自由，个人成功和财富的承诺之地，但他们很快意识到美国并不像他们想象的那样完美。他们受到校园周边街区频繁抢劫和其他犯罪行为的影响，因为许多主要大学都位于非工业化城市，种族主义与阶级和司法不公正交相呼应。在校园里，大学的管理人员已经培养出了研究生教学和研究助理，其中很大一部分是中国人，是不稳定的劳动者，他们的工资最低，健康保险也很差。此外，在没有足够的制度导向的情况下大量出现的中国人口，不仅在大学生中引发了许多适应问题，而且也为这些年轻人创造了一种更容易的条件，即只在他们自己内部建立联系，而不是与其他群体接触和交往。这种自我孤立倾向的同谋者是他们所感知到的潜在的种族和文化偏见，例如，他们被称为‘fobby’（来自词fob，意为初来乍到的菜鸟）。</p>
+<p>除了日常接触之外，中国学生经常在媒体上看到有选择性的、有偏见的中国代表，这只会激起更多的愤怒和对美国社会的失望。如果没有一个超越民族国家的批判视野，他们就会通过重新巩固与祖国的心理联系来处理这些挫败感。他们曾经对中国共产党持怀疑态度，现在却对其在消除贫困、提供福利、发展基础设施等方面取得的成就给予了更多的赞扬。然而，他们的高民族主义能量几乎没有在其他政治领域或其他社会辩论中重现。除了表达他们的民族自豪感，在美国，大多数中国学生对任何在当地寻求正义的校园或社区活动都不感兴趣。</p>
+<p>我认为，中国学生在中国的普遍犬儒主义和他们的民族主义在表面上自相矛盾。具有讽刺意味的是，他们在国外获得的民族主义实际上是一枚硬币的两面，是一种被剥夺了权力的心态，不相信集体团结，无法想象超越个人利益的系统性正义。尽管许多出生于上世纪80、90年代的中国年轻人对政府持怀疑态度，但不幸的是，他们在以任何形式对抗政治权力方面表现出了惊人的冷漠。在中国的正式政治和民间运动中，年轻的中国公民被剥夺了参与权，除了保护自己不受教条的政治话语的影响，并努力在精英制度的认证体系中取得成功，他们无法做出更大的改变。许多年以后，我明白了，这种心态属于一个老练的利己主义者。这个词用来形容那些善于表演和利用制度规则来实现个人议程的实用主义学生。老练的利己主义者支持市场实用主义和政治冷漠，而两者都是由党国精心策划的。[8]</p>
+<p>在美国获得博士学位后，通常是在STEM领域，许多中国学生进入工程和商业领域，努力实现他们的美国梦，如果你努力的话，你可以做出一些承诺。他们通常会在中产阶级的郊区安顿下来，继续对美国政治保持沉默，直到有一天，他们发现他们七岁的孩子告诉他们，变性人可以选择使用任何一种性别的卫生间。一些中国家长惊慌失措，愤怒地加入了他们的保守派美国同行，签署了请愿书。[9]在已经过去的总统选举中,我们首次观察到第一代中国移民的声音空前高涨，因为他们发现自己的政治观点与唐纳德特朗普的一些言论产生了共鸣。[10]例如，作为高成就的个人主义者，他们相信努力工作和自力更生对个人成功是足够的，再分配政策只会鼓励懒惰。</p>
+<p>虽然上述心理特征可能为大部分中国留学生的常见模式提供解释，但这篇文章的其余部分却揭示了一些在主流故事中经常被忽视的问题。首先，尽管如今的海外华人的暴发户形象广为流传，但阶级划分清楚描述了了不断扩大的学生群体。尽管相当多的中国学生来自富裕家庭，甚至在新英格兰也能负担得起私立寄宿学校，但他们中的许多人都出身卑微。他们也可能自我认同为中产阶级，但如今中国的中产阶级，就像在美国一样，是一个涵盖广泛社会阶层的宽泛术语。由于对中国高等教育的失望，许多家长宁愿为孩子在国外的大学教育支付高昂的学费，尽管这可能包括出售他们在市中心的公寓.在北京和上海，这些公寓的价值可能超过30万美元。对于这些学生来说，来美国攻读商业或工程学位不仅仅是为了获得体面的教育，而是为了帮助一个家庭制定资源战略。</p>
+<p>除了社会经济差异外，中国学生还被学习计划进一步区分开来。截至2015年，他们中的大多数人从事商业管理（26.5%）、数学和硬科学（21.3%）和工程（19.7%），社会科学（包括经济学）不到8%，人文学科不到1%。[11]后两种类型的小范围并不一定意味着不重要。对大多数中国人来说，选择人文和社会科学专业，如历史和社会学，对职业建设和财富积累是不现实的;决定攻读社会科学或人文学科专业的学生是不同取向的人。他们中的许多人对中国政府持更为批判的态度，并通过他们自己的努力，发展分析工具，以理解现实和历史表现的混合叙述。参加有关中国现代历史、比较政治、社会不平等的相关研究，为他们提供了一个完美的途径和崭新的视角来处理这些长期困扰他们的问题。</p>
+<p>与此同时，在过去的六年里，美国的政治话语发生了深刻的变化。“占领运动”，“黑人生活至关重要”，以及伯尼·桑德斯在千禧一代中的政治革命话语的流行，都使得大学校园成为激进主义的中心，并为那些不满美国的家长式家园或新自由主义的中国学生提供了一些鼓舞人心的启发。加入一些BLM抗议活动，支持工会集会或最近的反特朗普示威游行，一些中国学生一生中第一次有机会行使自己的公民权利，这在一个将他们定义为外星人的国家里是矛盾的。 当政治不再是一个抽象的概念，而是体现在一个人的日常行动和对话中，这可能是一个新的创造变革的时刻。</p>
+<p>最近，一些被招募的学生已经建立了不同的知识社区，这可能预示着一个不同的未来。一个令人印象深刻的例子是CNpolitics.org网站。由来自宾夕法尼亚大学的博士生创立，其现有的贡献者包括31名年轻的中国知识分子，其中一半以上是现在美国或英国的研究生。 CNpolitics定期向普通中国观众介绍最新的英语学术出版物，而不使用专业术语。在这些原始的书籍和文章评论以及对海外华人学者的采访中，学生撰稿人不会浪费任何机会将在中国境外进行的学术作品， 甚至那些与中国不相关的学术作品，与中国国内问题联系起来。他们的最新作品包括对美国种族投票研究的评论，孔子学院的困境，以及关于自由主义和民族主义的特别文章.[12]这种面向中国公众的知识写作模式，无助于这些学生作家在高度专业化的西方学术体系中获得金钱的回报。但这种努力的目的很明确：通过翻译和改造他们在中国以外的知识来影响和参与中国公共领域。</p>
+<p>另一个例子是，近期的中国的女权主义声音高涨，以及国家对它的压制。[13]2015年3月，一群年轻的女权主义者在国际妇女日前夕被逮捕和拘留，当时他们计划在公共交通上张贴反性骚扰贴纸。由于共产党正式支持妇女平等的工作权利，5名年轻女性遭遇的突然拘留震惊了全球的学者和女权主义者，并在英语媒体上被广泛报道。关于被拘留的女权主义者的详细信息的公开并向国际社会发布的一个原因是，有一群主要是在美国的匿名的中国学生，立即在Facebook上更新被拘留者在中国的境况。今年，在这个的团体基础上，一个名为“中国女权主义集体”的非政府组织在美国注册，有上百名成员，并继续支持跨国女权主义活动，并通过新的媒体平台倡导中国的性别平等。2017年1月21日，来自北美各地的30多名妇女参加了在华盛顿举行的妇女游行。这些中国女权主义学生除了在特朗普的总统任期内支持他们在全球的姐妹们，还希望他们在美国的倡导能够激励至少一些人在回国后推进女权主义事业。[14]</p>
+<p>这些非传统的中国学生群体的崛起从两个方面展现了一幅充满希望的画面。 首先，这些替代团体肯定是新生的，规模很小，他们不满足于自我修养，而是组织，出版和试图在当地制定变革，主要集中在中国。 其次，它表明美国的学术培训和更广泛的社会政治环境确实在激励和影响一些中国学生方面发挥着至关重要的作用。 进步的教学计划解开意识形态，陌生化民族主义神话，并采用跨国视角来批判多种形式的社会不平等，这可能有助于产生新的声音，而这些声音并未在任何一个国家的主流政治话语中出现.[15]</p>
+<p>今天，我的大学朋友回到了中国。 除了在著名的国立大学教学和研究之外，他还是一位受人尊敬的知识分子，主张学术专业化和调查STEM中的性别不平等。 他仍然是爱国者，经常表达对大学管理和政府的批评，并赞同他在美国进一步发展的学术诚信和社会公平的价值观。 像他一样，许多中国学生将在未来十年回归。 他们将以何种方式改变现状是一个悬而未决的问题。 如果人们可以对新的霸权力量做些什么，那就是影响在那个系统中工作的人，他们可以做出更大的改变。正如我在上面所展示的那样，美国的经验至关重要，因为其既可以促使中国学生在民族主义情感中变得更加狭隘，也同样可以使他们能够追求超越现有界限的进步。</p>
+<p>[^1]: For comprehensive data, see Institution of International Education, “Educational Exchange Open Doors Fact Sheet: China,” 2015, <a href="http://www.iie.org/Research-and-Publications/Open-Doors/Data/Fact-Sheets-by-Country/2015#.WA9vvdx_9qw" target="_blank" rel="noopener">www.iie.org/Research-and-Publications/Open-Doors/Data/Fact-Sheets-by-Country/2015#.WA9vvdx_9qw</a>.</p>
+<p>[^2]: For examples of their conspicuous consumption, see Yi-Ling Liu, “China’s Nouveau Riches Have Landed on America’s Campuses,” <em>Foreign Policy</em>, September 1, 2015, <a href="http://foreignpolicy.com/2015/09/01/chinas-nouveau-riche-have-landed-on-americas-campuses/" target="_blank" rel="noopener">foreignpolicy.com/2015/09/01/chinas-nouveau-riche-have-landed-on-americas-campuses/</a>; for academic dishonesty, see Yingyi Ma, “Academic Integrity: A Key Cross Cultural Issue for Chinese Students Overseas,” <em>United Planet</em>, January 17, 2013, <a href="http://www.unitedplanet.org/blog/2013/01/17/academic-integrity-a-key-cross-cultural-issue-for-chinese-students-overseas" target="_blank" rel="noopener">www.unitedplanet.org/blog/2013/01/17/academic-integrity-a-key-cross-cultural-issue-for-chinese-students-overseas</a>. For reactions from other students, see Jasmine Bernstein Yin, “The Chinese Elite at Columbia,” <em>Columbia Spectator</em>, December 14, 2015, <a href="http://features.columbiaspectator.com/opinion/2015/12/14/the-chinese-elite-at-columbia/" target="_blank" rel="noopener">features.columbiaspectator.com/opinion/2015/12/14/the-chinese-elite-at-columbia/</a>, and the following discussion: <a href="http://spc.columbiaspectator.com/opinion/2015/12/16/letter-editor-write-whatever-dont-involve-all-china" target="_blank" rel="noopener">spc.columbiaspectator.com/opinion/2015/12/16/letter-editor-write-whatever-dont-involve-all-china</a>. </p>
+<p>[^3]: See Institution of International Education, “Educational Exchange.” <strong>[End Page 566]</strong><br>[^4]: While some universities have started offering orientation courses to better accommodate large numbers of international undergrads, some courses were found to be haunted by “homogenizing cultural assumptions about ‘culturally discrete’ populations, celebratory images of US diversity, and exclusionary visions of national belongings in students’ home countries” (Christina Owens and Abigail Boggs, “The Global American Studies Classroom: International Students and Critical Pedagogy,” <em>American Quarterly</em> 68.2 [2016]: 382). Instead of helping international students adapt to new environments, these pedagogical practices sometimes reinforced the boundary between the American and the international students. For detailed discussion, see Owens and Boggs, “Global American Studies Classroom.”<br>[^5]: See Julia Wang, “The Burden of Being Asian American on Campus,” <em>Atlantic</em>, August 15, 2016, <a href="http://www.theatlantic.com/education/archive/2016/08/common-ancestry-complicated-present/495665/" target="_blank" rel="noopener">www.theatlantic.com/education/archive/2016/08/common-ancestry-complicated-present/495665/</a>.<br>[^6]: This refers to the online display of some Japanese woodblock prints produced as propaganda during the Sino-Japanese War in 1895, as part of the “Visualizing Cultures” project for pedagogical purpose by the professors John W. Dower and Shigeru Miyagawa at MIT in 2006. For discussion on the controversies in a critical context, see Winnie Wong and Jing Wang, eds., “Reconsidering MIT Visualizing Cultures Controversy,” special issue, positions: asia critique 23.1 (2015).<br>[^7]: Orville Schell, “China: Humiliation and the Olympics,” New York Review of Books, August 14, 2008, <a href="http://www.nybooks.com/articles/2008/08/14/china-humiliation-the-olympics/" target="_blank" rel="noopener">www.nybooks.com/articles/2008/08/14/china-humiliation-the-olympics/</a>.<br>[^8]: See Melissa Yin, “Everybody Hates Rui, The Leaf Nation,” Foreign Policy, July 18, 2014, foreignpolicy.com/2014/07/18/everybody-hates-rui/.<br>[^9]: See a recent announcement issued by a Chinese parent organization in Fairfax, Virginia, capafc. org/2016/10/capafc-condemns-disparaging-comments-against-fcps-board-member/; this incident, together with others of the same kind, has been reported widely in the Chinese-language media.<br>[^10]: For analyses of recent Chinese immigrants’ support of Trump, see Kate Linthicum, “Meet the Chinese American Immigrants Who Are Supporting Donald Trump,” Los Angeles Times, May 27, 2016, <a href="http://www.latimes.com/politics/la-na-pol-asian-voters-20160527-snap-story.html" target="_blank" rel="noopener">www.latimes.com/politics/la-na-pol-asian-voters-20160527-snap-story.html</a>; Jiangtao Shi and Catherine Wong, “Why Are Recent Chinese Immigrants Supporting Trump?,” South China Morning Post, October 9, 2016, <a href="http://www.scmp.com/news/china/diplomacy-defence/article/2026127/why-are-recent-chinese-immigrants-supporting-trump" target="_blank" rel="noopener">www.scmp.com/news/china/diplomacy-defence/article/2026127/why-are-recent-chinese-immigrants-supporting-trump</a>; Isaac Stone Fish, “A Trump Supporter Dwells in Beijing,” Atlantic, October 21, 2016, <a href="http://www.theatlantic.com/international/archive/2016/10/trump-china-beijing-muslim-clinton-republican-democrat/504917/" target="_blank" rel="noopener">www.theatlantic.com/international/archive/2016/10/trump-china-beijing-muslim-clinton-republican-democrat/504917/</a>.<br>[^11]: See Institution of International Education, “Educational Exchange.”<br>[^12]: See Shao Li, “Does Racial Consciousness Matter When Asians Vote?,” CNPolitics, cnpolitics.org/2016/10/race-based-considerations-and-the-obama-vote/; Wang Peinan, “Why Did the Confucius Institutes Bump into Resistance Overseas?,” CNPolitics, cnpolitics.org/2016/10/communicating-china-to-the-world/; Luo Sihang, “Are Liberalism and Nationalism Compatible?,” CNPolitics, cnpolitics.org/2016/09/nationalism/.<br>[^13]: See Jinyan Zeng, “China’s Feminist Five: This Is the Worst Crackdown on Lawyers, Activists, and Scholars in Decades,” Guardian, April 17, 2015, <a href="http://www.theguardian.com/lifeandstyle/2015/apr/17/chinas-feminist-five-this-is-the-worst-crackdown-on-lawyers-activists-and-scholars-in-decades/" target="_blank" rel="noopener">www.theguardian.com/lifeandstyle/2015/apr/17/chinas-feminist-five-this-is-the-worst-crackdown-on-lawyers-activists-and-scholars-in-decades/</a>.<br>[^14]: See Kim Wall, “When China’s Feminists Came to Washington,” Foreign Policy, January 25, 2017, foreignpolicy.com/2017/01/25/when-chinas-feminists-came-to-washington-womens-march-feminist-five-activism/.<br>[^15]: Initial experiments in this direction have already started in several universities. For reflections and discussions about how American studies have played a crucial role in such programs, see Owens and Boggs, “Global American Studies Classroom.” [End Page 567]</p>
+
+    </article>
+    <!-- 前后页  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2018/09/08/陈一发儿/" title= 新时代的宿命 >
+                    <div class="prevTitle">新时代的宿命</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
+    
+    
+    <!--PC版-->
+
+    <!--PC版-->
+
+
+    
+    <!-- 评论 -->
+</main>
+            <!-- profile -->
+            
+        </div>
+        <footer class="footer footer-unloaded">
+    <!-- social  -->
+    
+    <div class="social">
+        
+    
+        
+            
+                <a href="mailto:lyscc2016@qq.com" class="iconfont-archer email" title=email ></a>
+            
+        
+    
+        
+            
+                <a href="//github.com/reasonPi" class="iconfont-archer github" target="_blank" title=github></a>
+            
+        
+    
+        
+    
+        
+    
+        
+            
+                <a href="https://www.weibo.com/6508082836" class="iconfont-archer weibo" target="_blank" title=weibo></a>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <a href="https://www.instagram.com/_reasonpi/" class="iconfont-archer instagram" target="_blank" title=instagram></a>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    </div>
+    
+    <!-- powered by Hexo  -->
+    <div class="copyright">
+        <span id="hexo-power">Powered by <a href="https://hexo.io/" target="_blank">Hexo</a></span><span class="iconfont-archer power">&#xe635;</span><span id="theme-info">theme <a href="https://github.com/fi3ework/hexo-theme-archer" target="_blank">Archer</a></span>
+    </div>
+    <!-- 不蒜子  -->
+    
+    <div class="busuanzi-container">
+        <span id="busuanzi_container_site_pv">PV: <span id="busuanzi_value_site_pv"></span>
+        </span>
+    </div>
+    
+</footer>
+    </div>
+    <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        
+    </div>
+    
+    <div class="back-top iconfont-archer">&#xe639;</div>
+    <div class="sidebar sidebar-hide">
+    <ul class="sidebar-tabs sidebar-tabs-active-0">
+        <li class="sidebar-tab-archives"><span class="iconfont-archer">&#xe67d;</span><span class="tab-name">Archive</span></li>
+        <li class="sidebar-tab-tags"><span class="iconfont-archer">&#xe61b;</span><span class="tab-name">Tag</span></li>
+        <li class="sidebar-tab-categories"><span class="iconfont-archer">&#xe666;</span><span class="tab-name">Cate</span></li>
+    </ul>
+    <div class="sidebar-content sidebar-content-show-archive">
+          <div class="sidebar-panel-archives">
+    <!-- 在ejs中将archive按照时间排序 -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="total-archive"> Total : 14 </div>
+    
+    <div class="post-archive">
+    
+    
+    
+    
+    <div class="archive-year"> 2018 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/25</span><a class="archive-post-title" href= "/2018/09/25/[译] 中国学生如何变成民族主义者/" >【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/08</span><a class="archive-post-title" href= "/2018/09/08/陈一发儿/" >新时代的宿命</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/04</span><a class="archive-post-title" href= "/2018/09/04/如何硬核的下载腾讯视频内容/" >如何硬核的下载腾讯视频内容</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">07/05</span><a class="archive-post-title" href= "/2018/07/05/兰大庄捐书记/" >兰大庄捐书记</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">05/24</span><a class="archive-post-title" href= "/2018/05/24/主页篡改三板斧/" >主页篡改三板斧</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">05/06</span><a class="archive-post-title" href= "/2018/05/06/谈一谈建站/" >谈一谈建站</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/25</span><a class="archive-post-title" href= "/2018/04/25/一些近期推荐/" >一些近期推荐</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/20</span><a class="archive-post-title" href= "/2018/04/20/ABOUT/" >为什么要写独立博客</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/19</span><a class="archive-post-title" href= "/2018/04/19/撰写并发布你的第一篇博客/" >撰写并发布你的第一篇博客</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/19</span><a class="archive-post-title" href= "/2018/04/19/Markdown文件语法说明/" >Markdown文件语法说明</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/18</span><a class="archive-post-title" href= "/2018/04/18/使用HEXO 和GitHub Pages建立个人博客/" >使用HEXO 和GitHub Pages建立个人博客</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">03/10</span><a class="archive-post-title" href= "/2018/03/10/希拉里在联合国第四届妇女问题世界会议上的讲话/" >【译】希拉里在联合国第四届妇女问题世界会议上的讲话</a>
+        </li>
+    
+    
+    
+    
+    
+        </ul>
+    
+    <div class="archive-year"> 2017 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">12/31</span><a class="archive-post-title" href= "/2017/12/31/2017就要过去了，我假装怀念他/" >2017就要过去了，我假装怀念他</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/21</span><a class="archive-post-title" href= "/2017/10/21/从大家乡谈起-如何批判性的获取信息/" >从大家乡谈起---如何批判性的获取信息</a>
+        </li>
+    
+    </div>
+  </div>
+        <div class="sidebar-panel-tags">
+    <div class="sidebar-tags-name">
+    
+        <span class="sidebar-tag-name" data-tags="公众号往期文章归档"><span class="iconfont-archer">&#xe606;</span>公众号往期文章归档</span>
+    
+        <span class="sidebar-tag-name" data-tags="A"><span class="iconfont-archer">&#xe606;</span>A</span>
+    
+        <span class="sidebar-tag-name" data-tags="HEXO"><span class="iconfont-archer">&#xe606;</span>HEXO</span>
+    
+        <span class="sidebar-tag-name" data-tags="推荐"><span class="iconfont-archer">&#xe606;</span>推荐</span>
+    
+        <span class="sidebar-tag-name" data-tags="翻译"><span class="iconfont-archer">&#xe606;</span>翻译</span>
+    
+        <span class="sidebar-tag-name" data-tags="About"><span class="iconfont-archer">&#xe606;</span>About</span>
+    
+        <span class="sidebar-tag-name" data-tags="篡改主页"><span class="iconfont-archer">&#xe606;</span>篡改主页</span>
+    
+        <span class="sidebar-tag-name" data-tags="GitHub"><span class="iconfont-archer">&#xe606;</span>GitHub</span>
+    
+    </div>
+    <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
+    <div class="tag-load-fail" style="display: none; color: #ccc; font-size: 0.6rem;">
+    缺失模块。<br/>
+    1、请确保node版本大于6.2<br/>
+    2、在博客根目录（注意不是archer根目录）执行以下命令：<br/>
+    <span style="color: #f75357; font-size: 1rem; line-height: 2rem;">npm i hexo-generator-json-content --save</span><br/>
+    3、在根目录_config.yml里添加配置：
+    <pre style="color: #787878; font-size: 0.6rem;">
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: true
+    tags: true</pre>
+    </div> 
+    <div class="sidebar-tags-list"></div>
+</div>
+        <div class="sidebar-panel-categories">
+    <div class="sidebar-categories-name">
+    
+        <span class="sidebar-category-name" data-categories="随笔"><span class="iconfont-archer">&#xe60a;</span>随笔</span>
+    
+        <span class="sidebar-category-name" data-categories="GEEK"><span class="iconfont-archer">&#xe60a;</span>GEEK</span>
+    
+        <span class="sidebar-category-name" data-categories="推荐"><span class="iconfont-archer">&#xe60a;</span>推荐</span>
+    
+        <span class="sidebar-category-name" data-categories="翻译"><span class="iconfont-archer">&#xe60a;</span>翻译</span>
+    
+    </div>
+    <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
+    <div class="sidebar-categories-list"></div>
+</div>
+    </div>
+</div> 
+    <script>
+    var siteMeta = {
+        root: '/',
+        author: 'The Neptune'
+    }
+</script>
+    <!-- busuanzi  -->
+    
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    <!-- CNZZ  -->
+    
+    </div>
+    <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
+    
+    </body>
+</html>
+
+
