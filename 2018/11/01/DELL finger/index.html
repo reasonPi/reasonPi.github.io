@@ -10,7 +10,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
     <meta name="description" content="">
-    <title>The Neptune</title>
+    <title>如何给XPS15加装指纹识别 · The Neptune</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -65,6 +65,8 @@
 
     <link rel="preload" href= /css/style.css?v=20180317 as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" type="text/css" href= /css/mobile.css?v=20180317 media="(max-width: 980px)"/>
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         
     <link rel="icon" href= /favicon.ico>
     <script>
@@ -175,12 +177,23 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >The Neptune</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">如何给XPS15加装指纹识别</a>
+            </div>
+    </div>
     
     <a class="home-link" href=/>The Neptune</a>
 </header>
@@ -194,24 +207,67 @@
 
 
 
+height:50vh;
+
 >
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/images/20181101-head.jpg)"></div>
     <div class="site-intro-placeholder"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
+            如何给XPS15加装指纹识别
+            <!-- 404 -->
+            
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <!-- 文章页标签  -->
+            
+                <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "XPS15">XPS15</a>
+    
+</div>
+            
+            <div class="post-intro-meta">
+                <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                <span class="post-intro-time">2018/11/01</span>
+                
+                <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                    <span class="iconfont-archer">&#xe602;</span>
+                    <span id="busuanzi_value_page_pv"></span>
+                </span>
+                
+                <span class="shareWrapper">
+                    <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                    <span class="shareText">Share</span>
+                    <ul class="shareList">
+                        <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                            <div class="share-qrcode"></div>
+                        </li>
+                        <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                        <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                        <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                        <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                    </ul>
+                </span>
+            </div>
         
     </div>
 </div>
@@ -295,38 +351,53 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
+            <main class="main post-page">
+    <article class="article-entry">
+        <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>一直想用 Windows Hello 功能解锁电脑，原来也试想过加装识别摄像头，无奈难度太大无法实现。前几天凑巧发现在该电脑后期的版本中是带有指纹识别功能的，于是上淘宝搜了一下，确有该配件在卖，开盖后在主板上也确实有预留接口，当然要买来试一下。安装后效果不错，解锁速度很快，于是写一篇教程帮助有同样需求的人。 （我的设备 XPS15 9560，其他相关型号同理)</p>
+<p><img src="/images/20181101-01.jpg" alt="红框内为主板预留接口"></p>
+<h2 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h2><p>配件体积很小，整个淘宝只有一家卖的，不到一百块的样子，根据我拿到的实体上面的标注，戴尔配件号为  0Y6F7Y-6BP-A01。</p>
+<p><img src="/images/20181101-02.jpg" alt="配件本体"></p>
+<p><img src="/images/20181101-03.jpg" alt="配件代号"></p>
+<p>拆开 D 面盖板之后就可以看见预留接口，给元件预留的安装位置在左下侧，部分机型是一整块电池，部分机型是预留的机械硬盘位。安装前需要在该位置给 C 面开孔，或者购买带面开孔的 C 面更换。途中用铅笔画出开孔位置。</p>
+<p><img src="/images/20181101-04.jpg" alt="开孔"></p>
+<p>XPS 系列的碳纤维 C 面不太好切割，在没有电动工具的情况下用美工刀开孔大概需要 15-20 分钟。开孔前需要拆卸电池及主板以方便操作，图中是开完孔的样子。</p>
+<p><img src="/images/20181101-05.jpg" alt="开孔结束"></p>
+<p>接下来安装到位即可，相较于出厂自带，少一个金属垫片。导致指纹识别模块需要粘在面板上，图中我使用尼龙伞绳融化后作为粘合材料。如果你设备的这个位置之上没有硬盘或者电池，可能需要粘牢一些，我安装了一块硬盘正好可以抵住该模块。</p>
+<p><img src="/images/20181101-06.jpg" alt="安装结果"></p>
+<p><img src="/images/20181101-09.jpg" alt="安装结果"></p>
+<p>之后开机检测已经能够识别到生物输入设备了，根据提示或者在设置中更改解锁电脑方式即可。</p>
+<p><img src="/images/20181101-07.jpg" alt=""></p>
+<p><img src="/images/20181101-08.jpg" alt=""></p>
+<p>初步使用识别速度还是非常快的。</p>
+
+    </article>
+    <!-- 前后页  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2018/09/25/[译] 中国学生如何变成民族主义者/" title= 【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来 >
+                    <div class="prevTitle">【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
     
+    <!--PC版-->
+
+    <!--PC版-->
+
+
     
-        <article class="index-post">
-            <a class="abstract-title" href = "/2017/09/25/[译] 中国学生如何变成民族主义者/" >
-                
-                    <span>【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来</span>
-            </a>
-            <div class="abstract-content">
-                
-Yige Dong
-Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studied at Beijing University and received her BA from the Un...
-            </div>
-            <div class="abstract-post-meta">
-                <!-- date  -->
-                <div class="abstract-date">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2017/09/25</span>
-                </div>
-                <!-- tags  -->
-                
-                <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "翻译">翻译</a>
-    
-</div>
-                
-            </div>
-        </article>
-    
-    <!-- paginator  -->
-    
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -400,6 +471,24 @@ Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studi
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#起因"><span class="toc-number">1.</span> <span class="toc-text">起因</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#具体操作"><span class="toc-number">2.</span> <span class="toc-text">具体操作</span></a></li></ol>
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -583,7 +672,20 @@ Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studi
     
     
     
-    <div class="total-archive"> Total : 14 </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="total-archive"> Total : 15 </div>
     
     <div class="post-archive">
     
@@ -592,6 +694,16 @@ Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studi
     
     <div class="archive-year"> 2018 </div>
     <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/01</span><a class="archive-post-title" href= "/2018/11/01/DELL finger/" >如何给XPS15加装指纹识别</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/25</span><a class="archive-post-title" href= "/2018/09/25/[译] 中国学生如何变成民族主义者/" >【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来</a>
+        </li>
     
     
         <li class="archive-post-item">
@@ -667,11 +779,6 @@ Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studi
             <span class="archive-post-date">10/21</span><a class="archive-post-title" href= "/2017/10/21/从大家乡谈起-如何批判性的获取信息/" >从大家乡谈起---如何批判性的获取信息</a>
         </li>
     
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">09/25</span><a class="archive-post-title" href= "/2017/09/25/[译] 中国学生如何变成民族主义者/" >【译】中国学生如何变成民族主义者——他们的美国经验和太平洋另一端的未来</a>
-        </li>
-    
     </div>
   </div>
         <div class="sidebar-panel-tags">
@@ -683,6 +790,10 @@ Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studi
     
         <span class="sidebar-tag-name" data-tags="About"><span class="iconfont-archer">&#xe606;</span>About</span>
     
+        <span class="sidebar-tag-name" data-tags="XPS15"><span class="iconfont-archer">&#xe606;</span>XPS15</span>
+    
+        <span class="sidebar-tag-name" data-tags="翻译"><span class="iconfont-archer">&#xe606;</span>翻译</span>
+    
         <span class="sidebar-tag-name" data-tags="HEXO"><span class="iconfont-archer">&#xe606;</span>HEXO</span>
     
         <span class="sidebar-tag-name" data-tags="推荐"><span class="iconfont-archer">&#xe606;</span>推荐</span>
@@ -690,8 +801,6 @@ Yige Dong is a PhD candidate in sociology at Johns Hopkins University. She studi
         <span class="sidebar-tag-name" data-tags="篡改主页"><span class="iconfont-archer">&#xe606;</span>篡改主页</span>
     
         <span class="sidebar-tag-name" data-tags="GitHub"><span class="iconfont-archer">&#xe606;</span>GitHub</span>
-    
-        <span class="sidebar-tag-name" data-tags="翻译"><span class="iconfont-archer">&#xe606;</span>翻译</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
@@ -730,9 +839,9 @@ jsonContent:
     
         <span class="sidebar-category-name" data-categories="GEEK"><span class="iconfont-archer">&#xe60a;</span>GEEK</span>
     
-        <span class="sidebar-category-name" data-categories="推荐"><span class="iconfont-archer">&#xe60a;</span>推荐</span>
-    
         <span class="sidebar-category-name" data-categories="翻译"><span class="iconfont-archer">&#xe60a;</span>翻译</span>
+    
+        <span class="sidebar-category-name" data-categories="推荐"><span class="iconfont-archer">&#xe60a;</span>推荐</span>
     
     </div>
     <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
@@ -754,6 +863,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
     
     </body>
 </html>
